@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://imgs.search.brave.com/sjAQ5ucDDG4uMEBKQulZfjSuM6ZILltUpEZak2aBXoc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92ZXJj/ZWwuY29tL3ZjLWFw/LXZlcmNlbC1tYXJr/ZXRpbmcvX25leHQv/c3RhdGljL21lZGlh/L25leHRqcy1sb2dv/LWxpZ2h0LjMwMWEw/NzZmLnN2Zw" alt="Logo Next.js" title="Logo Next.js" width="200">
 </div>
-
+<br />
 <div align="center">
 
 ![Static Badge](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=%23ffffff&labelColor=%23000000&color=%23000000) ![Static Badge](https://img.shields.io/badge/React-blue?style=flat&logo=react&logoColor=%23ffffff&labelColor=%23222222&color=%2361DAFB) ![Static Badge](https://img.shields.io/badge/Supabase-green?style=flat&logo=supabase&logoColor=%23ffffff&labelColor=%23222222&color=%233ECF8E) ![Static Badge](https://img.shields.io/badge/Tiptap-blueviolet?style=flat&logo=tiptap&logoColor=%23ffffff&labelColor=%23222222&color=%23FF5C5C) ![Static Badge](https://img.shields.io/badge/React%20Hook%20Form-green?style=flat&logo=react-hook-form&logoColor=%23ffffff&labelColor=%23222222&color=%23EC5990) ![Static Badge](https://img.shields.io/badge/Sass-pink?style=flat&logo=sass&logoColor=%23ffffff&labelColor=%23222222&color=%23CC6699)
