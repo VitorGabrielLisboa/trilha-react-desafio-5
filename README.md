@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="https://imgs.search.brave.com/sjAQ5ucDDG4uMEBKQulZfjSuM6ZILltUpEZak2aBXoc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92ZXJj/ZWwuY29tL3ZjLWFw/LXZlcmNlbC1tYXJr/ZXRpbmcvX25leHQv/c3RhdGljL21lZGlh/L25leHRqcy1sb2dv/LWxpZ2h0LjMwMWEw/NzZmLnN2Zw" alt="Logo Next.js" title="Logo Next.js" width="200">
+</div>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![Static Badge](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=%23ffffff&labelColor=%23000000&color=%23000000) ![Static Badge](https://img.shields.io/badge/React-blue?style=flat&logo=react&logoColor=%23ffffff&labelColor=%23222222&color=%2361DAFB) ![Static Badge](https://img.shields.io/badge/Supabase-green?style=flat&logo=supabase&logoColor=%23ffffff&labelColor=%23222222&color=%233ECF8E) ![Static Badge](https://img.shields.io/badge/Tiptap-blueviolet?style=flat&logo=tiptap&logoColor=%23ffffff&labelColor=%23222222&color=%23FF5C5C) ![Static Badge](https://img.shields.io/badge/React%20Hook%20Form-green?style=flat&logo=react-hook-form&logoColor=%23ffffff&labelColor=%23222222&color=%23EC5990) ![Static Badge](https://img.shields.io/badge/Sass-pink?style=flat&logo=sass&logoColor=%23ffffff&labelColor=%23222222&color=%23CC6699)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🚀 Next.js Blog App
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+>  Blog moderno desenvolvido na Formação React Developer da [DIO](https://www.dio.me/), com editor de texto avançado, autenticação via Supabase e interface responsiva. Combina performance do Next.js com experiência intuitiva para leitores e autores.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## ⚒️ Ferramentas Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto foi construído utilizando as seguintes tecnologias e bibliotecas:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Next.js](https://nextjs.org/)**: Framework React para renderização de aplicações de forma otimizada.
+- **[React](https://reactjs.org/)**: Biblioteca JavaScript para a construção da interface de usuário.
+- **[Supabase](https://supabase.com/)**: Utilizado como backend e banco de dados, oferecendo autenticação e armazenamento de dados.
+- **[Tiptap](https://tiptap.dev/)**: Um editor de texto rico e extensível para criar e formatar o conteúdo dos posts.
+- **[React Hook Form](https://react-hook-form.com/)**: Biblioteca de alta performance para gerenciar formulários, validações e estado.
+- **[Yup](https://github.com/jquense/yup)**: Um construtor de esquemas para validação de formulários, integrado com o react-hook-form.
+- **[Sass](https://sass-lang.com/)**: Pré-processador de CSS para estilização mais poderosa e organizada.
+- **[Floating UI](https://floating-ui.com/)**: Biblioteca para posicionar elementos de interface de forma precisa e eficiente.
+- **[dayjs](https://day.js.org/)**: Uma biblioteca leve para manipulação e formatação de datas.
+- **[reading-time](https://github.com/ngryman/reading-time)**: Utilizada para calcular o tempo de leitura estimado de cada artigo.
+- **[React Icons](https://react-icons.github.io/react-icons/)**: Biblioteca que oferece ícones populares como componentes React.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📌 Funcionalidades
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O projeto apresenta as seguintes funcionalidades principais:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Editor de Texto Rico**: Utiliza um editor de texto completo, construído com Tiptap, para formatar os posts com facilidade.
+- **Autenticação e Backend**: Gerenciamento de usuários e posts de blog com a ajuda do Supabase.
+- **Formulários Otimizados**: Criação de formulários eficientes com validação de esquema robusta, utilizando React Hook Form e Yup.
+- **Design Responsivo**: Uma interface de usuário moderna e totalmente responsiva, garantindo uma ótima visualização em dispositivos móveis e desktops.
+- **Feedback Visual**: Componentes de carregamento (Spinners) e notificações (Toastify) para uma experiência de usuário mais clara.
+- **Leitura Otimizada**: Cálculo automático do tempo de leitura de cada artigo.
+
+## ⚠️ Limitações
+Esse projeto mesmo sendo robusto possui problemas e limitações, sendo:
+- **Gerenciamento de Mídia**: O editor de texto atualmente não suporta o upload direto de imagens ou outros arquivos de mídia. 
+- **Escalabilidade do Supabase**: A versão gratuita do Supabase utilizada neste projeto tem limites de uso, o que pode tornar o projeto inultilizavel a longo prazo.
+- **Funcionalidades de Interação**: Não há suporte nativo para comentários nos posts, curtidas ou compartilhamentos sociais.
+---
+<div align="center"> <p style="font-size: 0.6em;">Não está perfeito, mas é close enough ✨</p></div>
+
+
