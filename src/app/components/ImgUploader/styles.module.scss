@@ -1,0 +1,91 @@
+// components/ImageUploader/ImageUploader.module.scss
+.dropzoneContainer {
+  border: 2px dashed #cccbcb;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  cursor: pointer;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden; // Adicionado para conter o overlay
+
+  &:hover {
+    border-color: #aaaaaa;
+
+    .imageOverlay {
+      opacity: 1;
+    }
+  }
+
+  &.active {
+    border-color: #aaaaaa;
+  }
+  &.removeBorder {
+    border: none;
+  }
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+
+  .uploadIconHover {
+    color: white;
+    font-size: 4rem;
+    //background: rgba(160, 160, 160, 0.7);
+    border-radius: 50%;
+    padding: 8px;
+    transition: all 0.3s ease;
+  }
+}
+
+.uploadIconAbsolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #a0a0a0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 20;
+}
+
+.uploadIcon {
+  color: #a0a0a0;
+  margin-bottom: 10px;
+}
+
+.dropText {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.imagePreview {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 10px;
+}

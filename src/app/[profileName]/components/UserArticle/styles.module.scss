@@ -1,0 +1,71 @@
+.card {
+  margin: 20px 0;
+  padding: 0 0 10px 0;
+  // border-bottom: 1px solid #dbd8d8;
+  width: fit-content;
+  z-index: -20;
+  position: relative;
+
+  h3 {
+    position: static;
+    z-index: 2;
+    margin: 0.5rem 0;
+    width: fit-content;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    .dot {
+      width: 3px;
+      height: 3px;
+      background: #444;
+      margin: 0 0.2rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+.dropdownMenuContainer {
+  z-index: 200;
+  position: relative;
+  button {
+    margin-left: 0.5rem;
+    border: none;
+    background: none;
+    svg {
+      color: #444;
+      font-size: 1.3rem;
+      transition: all 0.2s ease;
+
+      &.active {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  .dropDownMenu {
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    padding: 10px;
+    background: #e4e4df;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 0.2rem;
+    z-index: 300;
+
+    li {
+      transition: all 0.5s ease;
+      &:last-child {
+        color: crimson;
+      }
+      &:hover {
+        cursor: pointer;
+        color: #222;
+      }
+    }
+  }
+}

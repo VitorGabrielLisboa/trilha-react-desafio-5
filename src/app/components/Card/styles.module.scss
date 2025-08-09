@@ -1,0 +1,59 @@
+.cardContainer {
+  max-width: max-content;
+  width: 100%;
+  display: flex;
+  padding: 10px 5px;
+  align-items: center;
+  gap: 0.5rem;
+  border-left: 4px solid #333;
+  transition: all 0.5s ease;
+
+  &:hover {
+    background: #dbd8d8;
+    cursor: pointer;
+  }
+
+  img {
+    max-width: 160px;
+    max-height: 90px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .content {
+    position: relative;
+
+    .contentHeader {
+      .authorContainer {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-left: 0.25rem;
+        margin-bottom: 0.25rem;
+        img {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+        }
+        font-size: 0.75rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        // border-left: 4px solid #333;
+        // padding-left: 0.5rem;
+      }
+    }
+    .description {
+      margin-left: 0.25rem;
+      margin-top: 0.5rem;
+      // padding-bottom: 10px;
+    }
+  }
+}
+
+.descriptionText {
+  line-height: 1.2rem;
+  text-align: justify;
+  margin: 0.25rem 0;
+}

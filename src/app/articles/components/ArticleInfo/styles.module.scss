@@ -1,0 +1,70 @@
+.articleInfoWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bannerImage {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.articleHeader {
+  .title {
+    height: 100%;
+    padding: 8px 0;
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  .headerDetails {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .authorProfile {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    .dataInfo {
+      border-left: 1px solid #999;
+      padding-left: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      color: #999;
+      font-size: 0.7rem;
+      .dot {
+        width: 2px;
+        height: 2px;
+        background: #999;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.line {
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 2px;
+  background: #cfcece;
+}
+
+.bodyContent {
+  text-align: justify;
+  max-width: 700px;
+  width: 100%;
+  font-size: 1.25rem;
+  color: #888;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  text-wrap: wrap;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+}

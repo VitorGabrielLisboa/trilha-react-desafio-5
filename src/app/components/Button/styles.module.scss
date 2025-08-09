@@ -1,0 +1,29 @@
+.button {
+  max-width: 300px;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  outline: none;
+  border: 2px solid #222;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  background: transparent;
+  color: #222;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  letter-spacing: 0.09rem;
+
+  &:hover {
+    background: #222;
+    color: #fff;
+  }
+}
+
+.variant {
+  background: #222;
+  color: #fff;
+
+  &:hover {
+    background: #111;
+    border: 2px solid #111;
+  }
+}

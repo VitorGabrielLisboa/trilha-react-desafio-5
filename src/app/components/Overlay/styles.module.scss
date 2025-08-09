@@ -1,0 +1,17 @@
+.grayBackground {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(80, 78, 78, 0.548);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+  z-index: 200;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

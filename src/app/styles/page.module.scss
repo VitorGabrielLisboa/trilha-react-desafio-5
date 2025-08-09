@@ -1,0 +1,81 @@
+.main {
+  margin: 2rem auto;
+  max-width: 700px;
+  width: 100%;
+  color: #444;
+  position: relative;
+
+  h1 {
+    border-left: 5px solid #333;
+    padding-left: 0.5rem;
+  }
+
+  .cardContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .grayBackground {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(80, 78, 78, 0.548);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+  }
+}
+
+.form {
+  width: 400px;
+  background: #e4e4df;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  padding: 1rem;
+  border-radius: 0.3rem;
+
+  .icon {
+    position: absolute;
+    top: 15px;
+    right: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  h2 {
+    text-align: center;
+    margin: 1.5rem 0 1rem 0;
+  }
+
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 0 auto;
+
+    button {
+      padding: 6px 8px;
+      margin-top: 0.5rem;
+    }
+  }
+  p {
+    margin-top: 0.5rem;
+    text-align: center;
+
+    span {
+      cursor: pointer;
+      color: #333;
+      text-decoration: underline;
+      transition: all 0.5s ease;
+
+      &:hover {
+        color: #111;
+      }
+    }
+  }
+}

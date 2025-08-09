@@ -1,0 +1,49 @@
+.main {
+  margin: 2rem auto;
+  max-width: 700px;
+  width: 100%;
+  color: #444;
+
+  ul {
+    margin-left: 2rem;
+    li {
+      list-style: outside;
+    }
+  }
+}
+
+.loadingContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.errorContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #555;
+  span {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #999;
+    border-radius: 0.3rem;
+    a {
+      color: #999;
+      text-decoration: none;
+      outline: none;
+      background: #efefef;
+      font-weight: 600;
+    }
+  }
+}
