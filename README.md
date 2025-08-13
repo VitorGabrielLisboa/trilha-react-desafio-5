@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://imgs.search.brave.com/sjAQ5ucDDG4uMEBKQulZfjSuM6ZILltUpEZak2aBXoc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92ZXJj/ZWwuY29tL3ZjLWFw/LXZlcmNlbC1tYXJr/ZXRpbmcvX25leHQv/c3RhdGljL21lZGlh/L25leHRqcy1sb2dv/LWxpZ2h0LjMwMWEw/NzZmLnN2Zw" alt="Logo Next.js" title="Logo Next.js" width="200">
+  <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/r0rx7o4jm6jy2uvzt7xk" alt="Logo Next.js" title="Logo Next.js" width="200">
 </div>
 <br />
 <div align="center">
